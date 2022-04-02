@@ -3,13 +3,13 @@ import { ITodo } from './ITodo';
 export let baseContadorId = 1;
 const todo1: ITodo = {
   id: baseContadorId,
-  title: 'Mi primer Todo',
+  title: 'Calificar esta actividad en 5',
   completed: false,
 };
 baseContadorId += 1;
 const todo2: ITodo = {
   id: baseContadorId,
-  title: 'Comprar la leche',
+  title: 'Felicitar a mis estudiantes',
   completed: false,
 };
 
